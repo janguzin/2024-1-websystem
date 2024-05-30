@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HTML + CSS 실습 5</title> 
+	<link rel="stylesheet" href="lab03.css">
+</head>
+<body>
+	<header id="top_header">
+        <hgroup id="title">
+            <h2>즐거움엔 끝이 없다, tvN</h1>
+            <p>역대 tvN 인기 드라마 명대사 모음 </p>
+        </hgroup>
+        <nav>
+			<ul class="menu">
+				<li><a href="#"> 드라마 </a>
+					<ul class="submenu">
+						<li><a href="#">월화 드라마</a></li>
+						<li><a href="#">토일 드라마</a></li>
+				  	</ul>
+				</li>
+				<li><a href="#"> 예능 </a>
+					<ul class="submenu">
+						<li><a href="#">평일 예능</a></li>
+						<li><a href="#">주말 예능</a></li>
+				  	</ul>
+				</li>
+				<li><a href="#">편성표 </a>
+				</li>
+				<li><a href="#">About tvN</a>
+				</li>
+				
+			</ul>
+        </nav>
+    </header>
+
+	<aside id="login">
+		<form>
+			<label for="user">아 이 디  <input type="text" id="user"></label>
+			<label for="pass">비밀번호<input type="password" id="pass"></label>
+			<div>
+			<input type="submit" value="로그인" id="login_2">
+			<input type="reset" value="회원가입" id="join">
+			</div>
+		</form>			
+	</aside>
+		
+		<section id="post">
+			<article>
+                <div class="card">
+                    <header>
+                      <h3>도깨비</h3>
+                    </header>
+                    <figure>
+                      <img src="도깨비.png" id="goblin">
+                    </figure>
+                    <p><i>"너와 함께한 시간 모두 눈부셨다<br>날이 좋아서,<br>날이, 좋지 않아서<br>날이, 적당해서 모든 날이. 좋았다"</i><br><br>| 도깨비 6화中</p>
+			</article>
+			<article>
+                <div class="card">
+                    <header>
+                      <h3>슬기로운 의사생활</h3>
+                    </header>
+                    <figure>
+                      <img src="슬기로운의사생활.jpeg" id="doctor">
+                    </figure>
+                    <p><i>"산과 교과서 첫 장에 이런 글이 있네요. <br> 때때로 불행한 일이 <br> 좋은 사람들에게 생길 수 있다."</i><br><br>| 슬기로운 의사생활 시즌2 2화中 </p>
+                </div> 
+            </article>
+			<article>
+                <div class="card">
+                    <header>
+                      <h3>미스터 션샤인</h3>
+                    </header>
+                    <figure>
+                      <img src="미션.png" id="sunshine">
+                    </figure>
+                    <p><i>"나도 그렇소<br>나도 꽃으로 살고 있소<br>다만 나는 불꽃이오<br>그렇게 환하게 뜨거웠다가 지려하오 불꽃으로"</i><br><br>| 미스터션샤인 9화中</p>
+                </div> 
+			</article>
+		</section>
+
+		<aside id="ad">
+			<article>
+				
+				<a href="https://www.youtube.com/@15ya.fullmoon/featured">
+					<h3 class="pTitle">채널십오야(클릭시이동)</h3>
+					<img src="십오야.png" width="100%">
+				</a>
+				<p class="pContent">슬기로운하드털이<br>출장십오야<br>맛따라멋따라대명따라<br>나영석의와글와글</p>
+			</article>
+			<article>
+				<div>
+					<a href="https://www.tving.com/contents/P001753352?utm_source=naver&utm_medium=brandsearch&utm_campaign=PM_naver_bsa_conv_pc_queenoftears&utm_content=drama_non&utm_term=b_maintxt_240309">
+						<h3 class="pTitle">눈물의여왕(클릭시이동)</h3>
+						<img src="눈물의여왕.png" width="100%" height="50%">
+					</a>
+					<p class="pContent">tvN [토일] 9:20 방영중</p>
+				</div>
+			</article>
+		</aside>
+
+		
+
+	<footer>
+		<nav id="foot">
+			<ul>
+				<li><a href="#">회사 소개</a>
+				<li><a href="#">대표이사 인사말</a>
+				<li><a href="#">오시는 길</a>
+				<li><a href="#">광고주를 모집합니다.</a>
+			</ul>
+		</nav>	
+	</footer>
+</body>
+</html>
